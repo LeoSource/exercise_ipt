@@ -1,0 +1,16 @@
+# 忽略simulink仿真过程临时文件
+src/slprj/
+src/*.slxc
+src/classes/*.asv
+*.autosave
+*.asv
+*.original
+*.slxc
+simulink/slprj/
+simulink/v1.0/*.slxc
+simulink/v1.0/slprj/
+simulink/v2.0/*.slxc
+simulink/v2.0/slprj/
+
+# 忽略vscode配置文件
+.vscode/
